@@ -10,33 +10,35 @@
 
 :root{
     --marrom: #7E5A38;
+    --marrom-2: #201a14;
     --dourado-1: #F4E409;
     --dourado-2: #EEBA0B;
     --dourado-3: #C36F09;
     --dourado-4: #A63C06;
     --dourado-5: #710000;
-    --transition: 0.325s ease-in-out;
+    --transition: 0.25s ease-in-out;
+    --gradiente: linear-gradient(
+        45deg,
+        var(--dourado-1),
+        var(--dourado-4),
+        var(--dourado-3),
+        var(--dourado-2),
+        var(--dourado-5)
+    );
 }
 
 body{
+    height: 100vh;
+    background-color:black;
     font-family: 'Dosis';
     color: var(--marrom);
-    background-color: black;
 }
 
 /* CABEÇALHO */
 
 .cabecalho{
     max-width: 100%;
-    background-image: linear-gradient(
-        45deg,
-        var(--dourado-1),
-        var(--dourado-4),
-        var(--dourado-3),
-        var(--dourado-5),
-        var(--dourado-2)
-        
-    );
+    background-image: var(--gradiente);
     padding: 2rem 1rem;
 }
 
@@ -76,56 +78,6 @@ body{
 }
 .botoes:hover{
     color:white;
-}
-
-/*MAIN*/
-
-.miolo{
-    text-align: center;
-}
-
-.titulo-img{
-    margin: 2rem 0;
-    padding: 2rem 1rem ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.titulo-img h1{
-    font-family: 'Montserrat Alternates';
-    font-size: 3rem;
-    font-weight: 500;
-}
-
-.titulo-img img{
-    width: 15%;
-    transition: var(--transition);
-}
-.titulo-img img:hover{
-    scale: 1.1;
-    filter: brightness(1.75);
-}
-.as-fota{   
-    margin: auto;
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.fota{
-    width: 45%;
-    margin: auto;
-    margin-bottom: 3rem;
-    border-radius: 2rem;
-    filter: grayscale(1);
-    transition: var(--transition);
-}
-.fota:hover{
-    scale: 0.9;
-
 }
 
 /* RODAPÉ */
