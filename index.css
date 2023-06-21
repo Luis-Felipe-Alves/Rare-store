@@ -3,19 +3,19 @@
 :root{
     --marrom: #7E5A38;
     --marrom-2: #201a14;
-    --dourado-1: #F4E409;
-    --dourado-2: #EEBA0B;
-    --dourado-3: #C36F09;
-    --dourado-4: #A63C06;
-    --dourado-5: #710000;
+    --dourado-1: #C98F59;
+    --dourado-2: #937F6D;
+    --dourado-3: #C9AE95;
+    --dourado-4: #4A3521;
+    --dourado-5: #8A623D;
     --transition: 0.25s ease-in-out;
     --gradiente: linear-gradient(
         45deg,
         var(--dourado-1),
-        var(--dourado-4),
-        var(--dourado-3),
         var(--dourado-2),
-        var(--dourado-5)
+        var(--dourado-3),
+        var(--dourado-5),
+        var(--dourado-4)
     );
 }
 
@@ -61,11 +61,14 @@
 
 .botao-inferior{
     margin: 0;
-    padding: 1rem;
+    padding: 1rem ;
     text-align: center;
     text-decoration: none;
     font-family: 'Jost';
+    font-weight: 300;
     font-size: 2rem;
+    box-sizing: content-box;
+
 }
 
 .botao-inferior p{
@@ -77,6 +80,5 @@
 }
 .botao-inferior p:hover{
     scale: 1.1;
-    color: white;
-    background-color: white;
+    filter: brightness(1.1);
 }
