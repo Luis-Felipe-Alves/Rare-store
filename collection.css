@@ -29,7 +29,6 @@
 }
 
 .dois-mil{
-    margin: 0.25rem;
     padding: 0;
     max-width: auto;
     display: flex;
@@ -38,9 +37,11 @@
 }
 
 .dois-mil p{
+    text-align: center;
+    width: 90%;
     margin: 0;
     padding: 0;
-    font-size: 12.5rem;
+    font-size: 10rem;
     font-family: 'Jost';
     font-weight: 100;
     background-image: var(--gradiente);
@@ -50,7 +51,7 @@
 }
 
 .as-fota{
-    margin: 5rem 0;
+    margin: 0;
     padding: 0;
     display: flex;
     max-width: auto;
@@ -63,4 +64,24 @@
 }
 .fota:hover{
     scale: 1.075;
+}
+
+.pecas{
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.a-peca{
+    max-width: auto;
+}
+
+.colecao{
+    display: flex;
+    align-items: center;
+}
+
+.colecao img{
+    max-width: 100%;
 }

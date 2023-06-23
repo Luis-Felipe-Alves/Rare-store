@@ -1,0 +1,428 @@
+/* GALAXY FOLD */
+
+@media (min-width:240px) and (max-width: 305px){
+       
+        /* CABEÇALHO */
+
+        .cabecalho nav{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.75rem;
+        }
+    
+        .canto-esquerdo{
+            padding: 0 0.25rem;
+        }
+    
+        .canto-esquerdo .logo{
+            width: 4rem;
+            filter: invert();
+            transition: var(--transition);
+        }
+        .canto-esquerdo .logo:hover{
+            filter: none;
+        }
+    
+        .canto-direito{
+            padding: 0 0.25rem;
+            display: flex;
+            gap: 0.1rem;
+        }
+    
+        .botoes{
+            padding: 0.5rem 0.5rem;
+            width: max-content;
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+            font-size: 0.75rem;
+            transition: var(--transition);
+        }
+        .botoes:hover{
+            color:white;
+        }
+    
+        .botao-inferior{
+            margin: 0;
+            padding: 1rem ;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Jost';
+            font-weight: 300;
+            font-size: 1rem;
+            box-sizing: content-box;
+        
+        }
+    
+        /* MIOLO DA COLLECTION */
+    
+        .dois-mil{
+            margin: 1rem 0;
+            padding: 0;
+            max-width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .dois-mil p{
+            text-align: center;
+            width: 90%;
+            margin: 0;
+            padding: 0;
+            font-size: 2.5rem;
+            font-family: 'Jost';
+            font-weight: 100;
+            background-image: var(--gradiente);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    
+        /* MIOLO STORYTELLING */
+
+        .storytelling{
+            max-width: 100%;
+            margin: 3rem 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: justify;
+            gap: 3rem;
+            font-size: 1.5rem;
+            font-family: 'Jost';
+            font-weight: 300;
+            justify-content: center;
+        }
+        
+        .storytelling h2{
+            font-size: 2rem;
+            font-weight: 300;
+            background-image: var(--gradiente);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        
+        .storytelling p{
+            width: 70%;
+            font-size: 1rem;
+            background-image: var(--gradiente);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        
+        .storytelling p strong{
+            background-image: var(--gradiente);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        
+        }
+
+        /* RODAPE */
+    
+        .rodape{
+            max-width: 100%;
+            padding: 2rem 1rem;
+        }
+        
+        .rodape-centro{
+            text-align: center;
+            font-weight: bolder;
+            font-size: 1rem;    
+            color: black;
+        }
+}
+
+/* IPHONE SE */
+
+@media (min-width: 310px) and (max-width: 520px) {
+   
+    /* CABEÇALHO */
+
+    .cabecalho nav{
+        display: flex;
+        align-items: center;
+    }
+
+    .canto-esquerdo{
+        padding: 0 0.25rem;
+    }
+
+    .canto-esquerdo .logo{
+        width: 2.5rem;
+        filter: invert();
+        transition: var(--transition);
+    }
+    .canto-esquerdo .logo:hover{
+        filter: none;
+    }
+
+    .canto-direito{
+        padding: 0 0.25rem;
+        display: flex;
+        gap: 0.1rem;
+    }
+
+    .botoes{
+        padding: 0.5rem 0.5rem;
+        width: max-content;
+        text-decoration: none;
+        color: black;
+        font-weight: bolder;
+        font-size: 1rem;
+        transition: var(--transition);
+    }
+    .botoes:hover{
+        color:white;
+    }
+
+    .botao-inferior{
+        margin: 0;
+        padding: 1rem ;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Jost';
+        font-weight: 300;
+        font-size: 1rem;
+        box-sizing: content-box;
+    
+    }
+
+    /* MIOLO DA COLLECTION */
+
+    .dois-mil{
+        margin: 1rem 0;
+        padding: 0;
+        max-width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .dois-mil p{
+        text-align: center;
+        width: 90%;
+        margin: 0;
+        padding: 0;
+        font-size: 3.5rem;
+        font-family: 'Jost';
+        font-weight: 100;
+        background-image: var(--gradiente);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    /* RODAPE */
+
+    .rodape{
+        max-width: 100%;
+        padding: 2rem 1rem;
+    }
+    
+    .rodape-centro{
+        text-align: center;
+        font-weight: bolder;
+        font-size: 1rem;    
+        color: black;
+    }
+}
+
+/* TABLETS MÉDIOS */
+
+@media (min-width: 530px) and (max-width: 650px){
+    
+    /* CABEÇALHO */
+
+        .cabecalho nav{
+            display: flex;
+            align-items: center;
+        }
+    
+        .canto-esquerdo{
+            padding: 0 0.25rem;
+        }
+    
+        .canto-esquerdo .logo{
+            width: 5rem;
+            filter: invert();
+            transition: var(--transition);
+        }
+        .canto-esquerdo .logo:hover{
+            filter: none;
+        }
+    
+        .canto-direito{
+            padding: 0 0.25rem;
+            display: flex;
+            gap: 0.5rem;
+        }
+    
+        .botoes{
+            padding: 0.5rem 0.5rem;
+            width: max-content;
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+        .botoes:hover{
+            color:white;
+        }
+    
+        .botao-inferior{
+            margin: 0;
+            padding: 1rem ;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Jost';
+            font-weight: 300;
+            font-size: 1rem;
+            box-sizing: content-box;
+        
+        }
+    
+        /* MIOLO DA COLLECTION */
+    
+        .dois-mil{
+            margin: 1rem 0;
+            padding: 0;
+            max-width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .dois-mil p{
+            text-align: center;
+            width: 90%;
+            margin: 0;
+            padding: 0;
+            font-size: 5rem;
+            font-family: 'Jost';
+            font-weight: 100;
+            background-image: var(--gradiente);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    
+        /* RODAPE */
+    
+        .rodape{
+            max-width: 100%;
+            padding: 2rem 1rem;
+        }
+        
+        .rodape-centro{
+            text-align: center;
+            font-weight: bolder;
+            font-size: 1rem;    
+            color: black;
+        }
+}
+
+/* TABLETS GRANDES */
+
+@media (min-width: 660px) and (max-width: 950px){
+    
+    /* CABEÇALHO */
+
+        .cabecalho nav{
+            display: flex;
+            align-items: center;
+        }
+    
+        .canto-esquerdo{
+            padding: 0 0.25rem;
+        }
+    
+        .canto-esquerdo .logo{
+            width: 5rem;
+            filter: invert();
+            transition: var(--transition);
+        }
+        .canto-esquerdo .logo:hover{
+            filter: none;
+        }
+    
+        .canto-direito{
+            padding: 0 0.25rem;
+            display: flex;
+            gap: 0.5rem;
+        }
+    
+        .botoes{
+            padding: 0.5rem 0.5rem;
+            width: max-content;
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+        .botoes:hover{
+            color:white;
+        }
+    
+        .botao-inferior{
+            margin: 0;
+            padding: 1rem ;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Jost';
+            font-weight: 300;
+            font-size: 1rem;
+            box-sizing: content-box;
+        
+        }
+    
+        /* MIOLO DA COLLECTION */
+    
+        .dois-mil{
+            margin: 1rem 0;
+            padding: 0;
+            max-width: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .dois-mil p{
+            text-align: center;
+            width: 90%;
+            margin: 0;
+            padding: 0;
+            font-size: 5rem;
+            font-family: 'Jost';
+            font-weight: 100;
+            background-image: var(--gradiente);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    
+        /* RODAPE */
+    
+        .rodape{
+            max-width: 100%;
+            padding: 2rem 1rem;
+        }
+        
+        .rodape-centro{
+            text-align: center;
+            font-weight: bolder;
+            font-size: 1rem;    
+            color: black;
+        }
+}
+
