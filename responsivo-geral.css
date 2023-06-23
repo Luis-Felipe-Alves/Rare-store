@@ -366,7 +366,7 @@
             text-decoration: none;
             color: black;
             font-weight: bolder;
-            font-size: 1rem;
+            font-size: 1.5rem;
             transition: var(--transition);
         }
         .botoes:hover{
